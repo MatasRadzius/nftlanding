@@ -101,6 +101,7 @@ main {
 }
 .cnp {
   height: 35px;
+  cursor: pointer;
 }
 /* 4 section */
 .title-box {
