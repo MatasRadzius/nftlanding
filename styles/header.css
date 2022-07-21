@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+}
+.logo {
+  padding-top: 31px;
+  padding-left: 32px;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+.hamburger-menu {
+  width: 35px;
+  padding-right: 32px ;
+  padding-top: 31px;
+  cursor: pointer;
+}

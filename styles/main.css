@@ -1,0 +1,208 @@
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+main {
+  font-family: Inter;
+}
+.body-1 {
+  display: flex;
+  padding-left: 32px;
+  height: 270px;
+}
+
+.box-right {
+  display: flex;
+  height: 280px;
+  padding-left: 210px;
+}
+.box-left {
+  width: 80%;
+  font-weight: bolder;
+  position: absolute;
+}
+.launching-soon {
+  color: #ff3998;
+  font-size: 11px;
+  letter-spacing: 1px;
+  padding-top: 30px;
+}
+
+.text-1 {
+  color: #777777;
+  font-weight: 400;
+  width: 270px;
+  margin: 0;
+}
+
+.An-NFT {
+  font-size: 45px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.button {
+  margin-left: 31px;
+  margin-bottom: 20px;
+  padding: 15px 35px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(45deg, slateblue, coral) border-box;
+  border: 3px solid transparent;
+  border-radius: 50px;
+  font-size: 12px;
+  cursor: pointer;
+
+}
+/*2 section*/
+.small-title {
+  width: 360px;
+  font-weight: 500;
+  font-size: 35px;
+  margin-bottom: 13px;
+}
+
+.sign-up-today {
+  width: 260px;
+  font-size: 16px;
+  margin: 0 0 25px 0;
+}
+
+.body-2 {
+  background-image: url("/assets/background.jpg");
+  padding-left: 31px;
+  background-size: 100% 300px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 240px;
+  
+}
+/* 3 section */
+.companies {
+  padding: 40px 32px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-column-gap: 2em;
+  grid-row-gap: 1em;
+  max-width: 330px;
+}
+.cnp {
+  height: 35px;
+}
+/* 4 section */
+.title-box {
+  padding: 0px 30px 0 30px;
+}
+.section-text-4 {
+  color: #777777;
+}
+.section-box-4 {
+  width: 290px;
+  font-size: 16px;
+  padding-left: 31px;
+}
+.link {
+  color: #777777;
+}
+/*5 section */
+.main-nft-box {
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+}
+.nft-box {
+  height: 320px;
+  width: 220px;
+  border-radius: 15px;
+  background-color: #eeeeee;
+  margin: 15px 5px 30px 31px;
+}
+.nft-img {
+  width: 100%;
+}
+.nft-fotter {
+  padding: 15px;
+}
+.nft-1-line {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+.eth-logo {
+  width: 9px;
+}
+.text-line-1 {
+  font-size: 9px;
+  color: #ff8139;
+  font-weight: 500;
+}
+.text-line-2-2 {
+  font-size: 9px;
+  color: #999999;
+  font-weight: 600;
+}
+.text-second-line {
+  color: black;
+  font-weight: 600;
+}
+.third-line {
+  color: #999999;
+  font-size: 15px;
+  font-weight: 500;
+}
+/*6 section */
+.box-6-section {
+  display: flex;
+  padding-left: 32px;
+  height: 430px;
+  border-top: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+  width: 390px;
+  margin-top: 50px;
+}
+
+.box-6-right {
+  display: flex;
+  width: 30%;
+  padding-top: 90px;
+  
+}
+.box-6-left {
+  width: 250px;
+}
+.section-6-text{
+  color: #777777;
+  font-weight: 400;
+  width: 185px;
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 19px;
+}
+.button2 {
+  margin-top: 10px;
+  padding: 15px 35px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(45deg, slateblue, coral) border-box;
+  border: 3px solid transparent;
+  border-radius: 50px;
+  font-size: 12px;
+  cursor: pointer;
+}
+/*7 section */
+
