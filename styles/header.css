@@ -16,3 +16,33 @@
   padding-top: 31px;
   cursor: pointer;
 }
+.navbar{
+  display: none;
+}
+@media screen and (min-width: 1150px){
+    .logo{
+      padding: 72px 0 0 0;
+    }
+    .hamburger-menu{
+      display:none;
+    }
+    .navbar{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 300px;
+      padding-top: 81px;
+      cursor: pointer;
+      font-weight: 400;
+      font-family: Inter;
+      font-size: 14px;
+    }
+    .navbar-text{
+      color: #999999;; 
+    }
+    .navbar-purple{
+      color:#FF3998;
+    }
+   
+}
+  

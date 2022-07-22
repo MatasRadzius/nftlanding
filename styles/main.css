@@ -4,6 +4,7 @@ body {
 }
 body {
   position: relative;
+  max-width: 398px;
 }
 
 p {
@@ -50,8 +51,6 @@ main {
   margin-top: 20px;
 }
 .button {
-  margin-left: 31px;
-  margin-bottom: 20px;
   padding: 15px 35px;
   background-color: white;
   color: black;
@@ -62,7 +61,7 @@ main {
   border-radius: 50px;
   font-size: 12px;
   cursor: pointer;
-
+  margin-top: 15px;
 }
 /*2 section*/
 .small-title {
@@ -86,8 +85,8 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  height: 240px;
-  
+  height: 200px;
+  margin-top: 70px;
 }
 /* 3 section */
 .companies {
@@ -102,6 +101,9 @@ main {
 .cnp {
   height: 35px;
   cursor: pointer;
+}
+.cnp1 {
+  display: none;
 }
 /* 4 section */
 .title-box {
@@ -122,7 +124,7 @@ main {
 .main-nft-box {
   display: flex;
   flex-direction: row;
-  width: 700px;
+  width: 6000px;
 }
 .nft-box {
   height: 320px;
@@ -130,6 +132,9 @@ main {
   border-radius: 15px;
   background-color: #eeeeee;
   margin: 15px 5px 30px 31px;
+}
+.nft-box2 {
+  display: none;
 }
 .nft-img {
   width: 100%;
@@ -169,8 +174,8 @@ main {
   display: flex;
   padding-left: 32px;
   height: 430px;
-  border-top: 1px solid #CCCCCC;
-  border-bottom: 1px solid #CCCCCC;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
   width: 390px;
   margin-top: 50px;
 }
@@ -179,12 +184,11 @@ main {
   display: flex;
   width: 30%;
   padding-top: 90px;
-  
 }
 .box-6-left {
   width: 250px;
 }
-.section-6-text{
+.section-6-text {
   color: #777777;
   font-weight: 400;
   width: 185px;
@@ -206,4 +210,96 @@ main {
   cursor: pointer;
 }
 /*7 section */
+@media screen and (min-width: 1150px) {
+  body {
+    padding: 0 81px 0 81px;
+    max-width: 1440px;
+  }
 
+  .body-1 {
+    height: 450px;
+    width: 100%;
+    padding: 0 0 70px 0;
+    padding-left: 0;
+    display: flex;
+   justify-content: space-between;
+   
+  }
+
+  .box-right {
+    
+    padding: 0;
+    height: 450px;
+    padding-right: 70px;
+  }
+  .box-left {
+    height: 450px;
+    width: 600px;
+    position: relative;
+    
+  }
+  .An-NFT{
+    width: 400px;
+    font-size: 60px;
+  }
+  .launching-soon{
+    padding-top: 90px;
+  }
+  .text-1{
+    padding: 10px 0 30px 0 ;
+    width: 400px;
+  }
+
+  .body-2 {
+    margin: 10px 0 10px 0;
+    border-radius: 15px;
+  }
+  .small-title {
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 13px;
+    width: 400px;
+    font-size: 26px;
+  }
+  .title-box {
+    padding: 0;
+  }
+  .section-box-4 {
+    padding: 0;
+  }
+
+  .sign-up-today {
+    font-size: 13px;
+    margin: 0 0 25px 0;
+    width: 400px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  .cnp1 {
+    display: block;
+  }
+  .companies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 2000px;
+    padding: 60px 0 70px 0;
+  }
+  .cnp {
+    height: 30px;
+    cursor: pointer;
+  }
+  .section-text-4 {
+    width: 700px;
+    padding: 8px 0 40px 0;
+  }
+  .main-nft-box {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+  }
+  .nft-box {
+    margin: 0 70px 0 0;
+    cursor: pointer;
+  }
+}
