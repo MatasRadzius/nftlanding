@@ -47,8 +47,7 @@ main {
 
 .An-NFT {
   font-size: 45px;
-  margin-bottom: 10px;
-  margin-top: 20px;
+  margin: 20px 0 10px 0;
 }
 .button {
   padding: 15px 35px;
@@ -87,6 +86,7 @@ main {
   justify-content: end;
   height: 200px;
   margin-top: 70px;
+  border-radius: 10px;
 }
 /* 3 section */
 .companies {
@@ -119,6 +119,7 @@ main {
 }
 .link {
   color: #777777;
+  font-weight:500;
 }
 /*5 section */
 .main-nft-box {
@@ -132,6 +133,7 @@ main {
   border-radius: 15px;
   background-color: #eeeeee;
   margin: 15px 5px 30px 31px;
+  cursor: pointer;
 }
 .nft-box2 {
   display: none;
@@ -209,47 +211,41 @@ main {
   font-size: 12px;
   cursor: pointer;
 }
+.text-2{
+display: none;
+}
 /*7 section */
 @media screen and (min-width: 1150px) {
   body {
     padding: 0 81px 0 81px;
     max-width: 1440px;
   }
-
   .body-1 {
     height: 450px;
     width: 100%;
-    padding: 0 0 70px 0;
+    padding: 40px 0 70px 0;
     padding-left: 0;
     display: flex;
-   justify-content: space-between;
-   
+    justify-content: space-between;
   }
-
   .box-right {
-    
-    padding: 0;
-    height: 450px;
-    padding-right: 70px;
+    padding: 0 40px 0 0;
+    height: 500px;
   }
   .box-left {
     height: 450px;
     width: 600px;
     position: relative;
-    
   }
-  .An-NFT{
+  .An-NFT {
     width: 400px;
     font-size: 60px;
   }
-  .launching-soon{
-    padding-top: 90px;
-  }
-  .text-1{
-    padding: 10px 0 30px 0 ;
+
+  .text-1 {
+    padding: 10px 0 30px 0;
     width: 400px;
   }
-
   .body-2 {
     margin: 10px 0 10px 0;
     border-radius: 15px;
@@ -267,9 +263,8 @@ main {
   .section-box-4 {
     padding: 0;
   }
-
   .sign-up-today {
-    font-size: 13px;
+    font-size: 16px;
     margin: 0 0 25px 0;
     width: 400px;
     padding-bottom: 20px;
@@ -301,5 +296,30 @@ main {
   .nft-box {
     margin: 0 70px 0 0;
     cursor: pointer;
+  }
+  /* 6 section */
+  .box-6-section {
+    display: flex;
+    justify-content: space-between;
+    height: 390px;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    width: 100%;
+    margin-top: 90px;
+    padding: 0;
+  }
+  .An-NFT2{
+    width: 550px;
+    font-size: 45px;
+  }
+  .section-6-text{
+    display: none;
+  }
+  .text-2{
+    display: block;
+    width: 400px;
+    padding-bottom: 20px;
+    color: #777777;
+    font-weight: 400;
   }
 }
