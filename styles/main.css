@@ -97,12 +97,10 @@ main {
   grid-column-gap: 2em;
   grid-row-gap: 1em;
   max-width: 330px;
-  
 }
 .cnp {
   height: 35px;
   cursor: pointer;
-  
 }
 .cnp1 {
   display: none;
@@ -278,6 +276,7 @@ main {
   }
   .cnp1 {
     display: block;
+    cursor: pointer;
   }
   .companies {
     display: flex;
