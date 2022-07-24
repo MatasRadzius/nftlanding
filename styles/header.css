@@ -2,47 +2,41 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
- 
 }
 .logo {
-  padding-top: 31px;
-  padding-left: 32px;
   cursor: pointer;
-  padding-bottom: 10px;
+  padding: 31px 0 10px 31px;
 }
 .hamburger-menu {
   width: 35px;
-  padding-right: 32px ;
-  padding-top: 31px;
+  padding: 31px 31px 0 0;
   cursor: pointer;
 }
-.navbar{
+.navbar {
   display: none;
 }
-@media screen and (min-width: 1150px){
-    .header{
-      padding: 72px 0 0 0;
-    }
-    .hamburger-menu{
-      display:none;
-    }
-    .navbar{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      width: 300px;
-      align-items: center;
-      cursor: pointer;
-      font-weight: 400;
-      font-family: Inter;
-      font-size: 14px;
-    }
-    .navbar-text{
-      color: #999999;; 
-    }
-    .navbar-purple{
-      color:#FF3998;
-    }
-   
+@media screen and (min-width: 1150px) {
+  .header {
+    padding: 72px 0 0 0;
+  }
+  .hamburger-menu {
+    display: none;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    align-items: flex-start;
+    cursor: pointer;
+    font-weight: 400;
+    font-family: Inter;
+    font-size: 14px;
+  }
+  .navbar-text {
+    color: #999999;
+  }
+  .navbar-purple {
+    color: #ff3998;
+  }
 }
-  
